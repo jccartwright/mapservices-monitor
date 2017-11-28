@@ -1,0 +1,10 @@
+<h2>Mapservices</h2>
+
+<ul class="mapservices">
+  <li *ngFor="let mapservice of mapservices">
+    <a routerLink="/detail/{{mapservice.id}}">
+      <span class="badge">{{ mapservice.id }}</span> {{ mapservice.name }}
+    </a>
+</li>      
+    
+</ul>

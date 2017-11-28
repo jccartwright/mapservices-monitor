@@ -1,0 +1,10 @@
+<div *ngIf="mapservice">
+    <h2>{{ mapservice.name }} Details</h2>
+    <div><span>id: </span>{{ mapservice.id }}</div>
+    <div>
+      <label>name: {{ mapservice.name }}
+      </label>
+    </div>    
+</div>
+
+<button (click)="goBack()">go back</button>
